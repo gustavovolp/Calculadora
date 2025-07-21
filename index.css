@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(180, 180, 180);
+}
+
+.container{
+    background-color: rgb(63, 63, 63);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 490px;
+    border-radius: 8px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.title{
+    color: white;
+    font-family: "Michroma", sans-serif;
+    font-size: 32px;
+    background-color: transparent;
+    text-align: left;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.botao{
+    font-family: "Michroma", sans-serif;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(144, 144, 144);
+    border-radius: 8px;
+    border: none;
+}
+
+.apaga {
+    background-color: orange;
+}
+    
+.igual{
+    width: 100px;
+    height: 210px;
+    background-color:rgb(91, 220, 239);
+    border-radius: 8px;
+    border: none;
+}
+
+.zero{
+   
+    width: 210px;
+    height: 100px;
+    background-color:rgb(144, 144, 144);
+    border-radius: 8px;
+    border: none;
+}
+
+.botao:hover{
+    background-color: rgb(176, 176, 176);
+    scale: 1.1;
+    border:rgba(0, 0, 0, 0.1) solid 2px;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+.igual:hover{
+    background-color: rgb(53, 212, 236);
+    scale: 1.05;
+    border:rgba(0, 0, 0, 0.1) solid 2px;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+.zero:hover{
+    background-color: rgb(176, 176, 176);
+    scale: 1.05;
+    border:rgba(0, 0, 0, 0.1) solid 2px;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+#resultado{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: "Michroma", sans-serif;
+    font-weight:600;
+    padding: 10px;
+    background-color: rgb(219, 219, 219);
+    width: 440px;
+    height: 70px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 32px;
+    color: black;
+    text-align: right;
+    border: black ;
+}
+
+.creditos{
+    font-family: "Michroma", sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
